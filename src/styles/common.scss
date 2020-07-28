@@ -1,0 +1,65 @@
+html,
+body {
+  height: 100%;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+// span,
+// i {
+//   font-family: "icomoon";
+// }
+
+.el-menu-item {
+  min-width: 0 !important;
+}
+.TAC {
+  text-align: center;
+}
+.mgT20 {
+  margin-top: 20px;
+}
+.mgT10 {
+  margin-top: 10px;
+}
+.mgB20 {
+  margin-bottom: 20px !important ;
+}
+.mgB10 {
+  margin-bottom: 10px !important ;
+}
+.mgL10 {
+  margin-left: 10px;
+}
+.mgR10 {
+  margin-right: 10px;
+}
+.mgR20 {
+  margin-right: 20px;
+}
+.ofh {
+  overflow: hidden;
+}
+.container {
+  /* height: 100%; */
+  padding: 20px;
+}
+.el-pagination {
+  margin-top: 10px;
+}
+.body {
+  /deep/ .el-table {
+    th {
+      text-align: center;
+    }
+    td {
+      text-align: center;
+    }
+  }
+}
+.el-col {
+  line-height: 36px;
+}
